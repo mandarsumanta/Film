@@ -30,10 +30,7 @@ export const filmsData = [
     crew: {
       director: "Sumanta Mandar",
       writer: "Sumanta Mandar", 
-      dop: "Sumanta Mandar",
-      editor: "Sumanta Mandar",
-      producer: "SDSU Film Program",
-      soundDesign: "Alex Thompson"
+      dop: "Sumanta Mandar"
     },
     
     festivals: [
