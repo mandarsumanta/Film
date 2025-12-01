@@ -8,7 +8,7 @@ export const filmsData = [
     duration: "8 min",
     category: "short-film",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "public/images/projects/the-reflection/thumbnail1.jpg",
+    thumbnail: "/images/projects/the-reflection/thumbnail1.jpg",
     description: "A contemplative narrative exploring themes of identity and self-discovery through visual metaphor and intimate character study.",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Demo video
     status: "Post-Production",
