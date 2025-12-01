@@ -11,32 +11,14 @@ export const filmsData = [
     thumbnail: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&h=400&fit=crop&crop=center", // Cinematic placeholder
     description: "A contemplative narrative exploring themes of identity and self-discovery through visual metaphor and intimate character study.",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Demo video
-    status: "Post-Production",
-    
+        
     synopsis: "An introspective journey following a young artist who discovers hidden truths about themselves through an antique mirror. The film explores themes of identity, memory, and the courage to face one's authentic self.",
-    
-    technicalSpecs: {
-      camera: "Sony FX3",
-      lenses: "Sigma Art Series",
-      colorGrading: "DaVinci Resolve",
-      aspect: "2.35:1"
-    },
-    
-    cast: [
-      { name: "Sarah Chen", role: "Maya" },
-      { name: "David Rodriguez", role: "The Stranger" }
-    ],
-    
+      
     crew: {
       director: "Sumanta Mandar",
       writer: "Sumanta Mandar", 
       dop: "Sumanta Mandar"
     },
-    
-    festivals: [
-      { name: "San Diego Film Festival", status: "Submitted" },
-      { name: "Student Film Festival", status: "Official Selection" }
-    ],
     
     gallery: [
       "/api/placeholder/800/450",
