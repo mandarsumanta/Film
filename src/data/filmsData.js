@@ -8,7 +8,7 @@ export const filmsData = [
     duration: "4 min",
     category: "short-film",
     roles: ["Editor", "Director of Photography", "Colorist"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    thumbnail: "/images/projects/No Thank You/No Thank You.jpg",
     //description: "A contemplative narrative exploring themes of identity and self-discovery through visual metaphor and intimate character study.", 
     videoUrl: "https://youtu.be/BXiKQK-A_vw?si=9xIuo6bNU1XVyjLY", // Demo video
     //status: "Finished",
