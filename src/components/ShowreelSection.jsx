@@ -87,7 +87,7 @@ const RESUME_URL = '/files/sumanta-mandar-portfolio.pdf';
   // Showreel data
   const showreelData = {
     title: "DIRECTOR'S SHOWREEL",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Demo showreel - replace with actual
+    videoUrl: "https://youtu.be/xF4n6yFOS5A?si=k4FBgIEFkj8W-29G", // Demo showreel - replace with actual
     duration: "2:30",
     description: "A showcase of my filmmaking journey across narrative, documentary, and commercial projects. Each piece represents a commitment to visual storytelling, technical excellence, and collaborative creativity developed through my MFA studies and professional work.",
     year: "2024"
