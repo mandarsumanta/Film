@@ -37,10 +37,10 @@ export const aboutData = {
   ],
 
   stats: [
-    { label: "Years of Experience", value: 6, suffix: "+" },
-    { label: "Projects Completed", value: 25, suffix: "+" },
-    { label: "Roles Mastered", value: 12, suffix: "" },
-    { label: "Countries Worked", value: 3, suffix: "" }
+    { label: "Years of Experience", value: 8, suffix: "+" },
+    { label: "Projects Completed", value: 30, suffix: "+" },
+    //{ label: "Roles Mastered", value: 12, suffix: "" },
+    //{ label: "Countries Worked", value: 3, suffix: "" }
   ],
 
   availability: {
