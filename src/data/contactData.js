@@ -21,7 +21,7 @@ export const contactData = {
     },
     {
       name: "YouTube",
-      url: "https://www.youtube.com/@sumantamandar",
+      url: "https://www.youtube.com/@SumantaMandar",
       handle: "@sumantamandar",
       icon: "youtube"
     }
