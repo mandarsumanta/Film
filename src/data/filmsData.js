@@ -1001,7 +1001,7 @@ export const roles = [
   'Writer', 
   'Editor',
   'Director of Photography',
-  'Cinematographer', // Added to match project data
+  //'Cinematographer', // Added to match project data
   'Colorist',
   'Gaffer',
   'Assistant Camera',
