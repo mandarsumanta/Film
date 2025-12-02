@@ -1,5 +1,6 @@
-// Real film projects data based on Sumanta's portfolio
+// 50 similar films based on \"The Reflection\"
 export const filmsData = [
+  // 1
   {
     id: 1,
     title: "The Reflection",
@@ -9,31 +10,8 @@ export const filmsData = [
     category: "short-film",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    description: "A contemplative narrative exploring themes of identity and self-discovery through visual metaphor and intimate character study.",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Demo video
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     status: "Post-Production",
-    
-    synopsis: "An introspective journey following a young artist who discovers hidden truths about themselves through an antique mirror. The film explores themes of identity, memory, and the courage to face one's authentic self.",
-    
-    // cast: [
-    //   { name: "Sarah Chen", role: "Maya" },
-    //   { name: "David Rodriguez", role: "The Stranger" }
-    // ],
-    
-    crew: {
-      director: "Sumanta Mandar",
-      writer: "Sumanta Mandar", 
-      dop: "Sumanta Mandar",
-      editor: "Sumanta Mandar",
-      producer: "SDSU Film Program",
-      soundDesign: "Alex Thompson"
-    },
-    
-    festivals: [
-      { name: "San Diego Film Festival", status: "Submitted" },
-      { name: "Student Film Festival", status: "Official Selection" }
-    ],
-    
     gallery: [
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
@@ -41,218 +19,935 @@ export const filmsData = [
       "/images/projects/the-reflection/gallery1.JPG"
     ]
   },
-  
+  // 2
   {
     id: 2,
-    title: "Urban Echoes",
-    year: 2023,
-    genre: "Documentary",
-    duration: "15 min",
-    category: "documentary",
-    roles: ["Director", "Cinematographer", "Editor"],
-    thumbnail: "/images/projects/urban-echoes/thumbnail.JPG",
-    description: "A documentary exploring the changing landscape of urban communities and the stories of resilience within them.",
-    videoUrl: "https://www.youtube.com/embed/ScMzIvxBSi4",
-    status: "Completed",
-    
-    synopsis: "An intimate look at three families navigating gentrification in their longtime neighborhood, capturing both the challenges and the community bonds that endure through change.",
-    
-    subjects: [
-      "Maria Santos - Community Leader",
-      "James Wilson - Local Business Owner", 
-      "The Chen Family - Long-time Residents"
-    ],
-    
-    crew: {
-      director: "Sumanta Mandar",
-      dop: "Sumanta Mandar",
-      editor: "Sumanta Mandar",
-      producer: "Independent",
-      soundRecording: "Lisa Park"
-    },
-    
-    impact: "Screened at community centers to raise awareness about housing issues",
-    
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
     gallery: [
-      "/images/projects/urban-echoes/still-1.JPG",
-      "/images/projects/urban-echoes/still-2.JPG",
-      "/images/projects/urban-echoes/still-3.JPG"
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
     ]
   },
-  
+  // 3
   {
     id: 3,
-    title: "Momentum",
-    year: 2023,
-    genre: "Commercial",
-    duration: "90 sec",
-    category: "commercial",
-    roles: ["Director", "Director of Photography", "Colorist"],
-    thumbnail: "/images/projects/momentum/thumbnail.JPG",
-    description: "High-energy commercial showcasing athletic performance and determination through dynamic cinematography.",
-    videoUrl: "https://www.youtube.com/embed/M7lc1UVf-VE",
-    status: "Completed",
-    
-    client: "Local Athletic Brand",
-    concept: "Capturing the essence of athletic dedication through kinetic visuals and inspiring narrative",
-    
-    crew: {
-      director: "Sumanta Mandar",
-      dop: "Sumanta Mandar",
-      colorist: "Sumanta Mandar",
-      producer: "Brand Agency",
-      gaffer: "Mike Johnson"
-    },
-    
-    results: "Increased brand engagement by 40% across social platforms",
-    
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
     gallery: [
-      "/images/projects/momentum/still-1.JPG",
-      "/images/projects/momentum/still-2.JPG"
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
     ]
   },
-  
+  // 4
   {
     id: 4,
-    title: "Wavelength",
-    year: 2022,
-    genre: "Animation",
-    duration: "3.5 min",
-    category: "music-video",
-    roles: ["Director", "Editor", "Colorist"],
-    thumbnail: "/images/projects/wavelength/thumbnail.JPG",
-    description: "Artistic animation blending performance with abstract visual storytelling and creative color grading.",
-    videoUrl: "https://www.youtube.com/embed/kJQP7kiw5Fk",
-    status: "Completed",
-    
-    artist: "Local Indie Band",
-    concept: "Visual representation of sound waves through color, movement, and abstract imagery",
-    
-    crew: {
-      director: "Sumanta Mandar",
-      dop: "Sarah Kim",
-      editor: "Sumanta Mandar",
-      colorist: "Sumanta Mandar",
-      gaffer: "Tom Chen"
-    },
-    
-    recognition: "Featured on band's official channels, 50K+ views",
-    
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
     gallery: [
-      "/images/projects/wavelength/still-1.JPG",
-      "/images/projects/wavelength/still-2.JPG",
-      "/images/projects/wavelength/still-3.JPG"
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
     ]
   },
-  
+  // 5
   {
     id: 5,
-    title: "Student Life Chronicles",
-    year: 2022,
-    genre: "Documentary Series",
-    duration: "5 episodes, 10 min each",
-    category: "documentary",
-    roles: ["Director", "Producer", "Editor"],
-    thumbnail: "/images/projects/student-life-chronicles/thumbnail.JPG",
-    description: "Documentary series following diverse student experiences at San Diego State University.",
-    videoUrl: "https://www.youtube.com/embed/9bZkp7q19f0",
-    status: "Completed",
-    
-    synopsis: "A five-part series exploring the challenges, triumphs, and daily realities of students from different backgrounds navigating university life.",
-    
-    episodes: [
-      "Episode 1: First Generation",
-      "Episode 2: International Students", 
-      "Episode 3: Working Students",
-      "Episode 4: Graduate Life",
-      "Episode 5: Creative Pursuits"
-    ],
-    
-    crew: {
-      director: "Sumanta Mandar",
-      producer: "Sumanta Mandar", 
-      editor: "Sumanta Mandar",
-      dop: "Rotating crew",
-      soundDesign: "Audio students"
-    },
-    
-    distribution: "SDSU internal platforms, student orientation materials",
-    
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
     gallery: [
-      "/images/projects/student-life-chronicles/still-1.JPG",
-      "/images/projects/student-life-chronicles/still-2.JPG"
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
     ]
   },
-  
+  // 6
   {
     id: 6,
-    title: "Midnight Transit",
-    year: 2021,
+    title: "The Reflection",
+    year: 2024,
     genre: "Narrative Short",
-    duration: "12 min",
+    duration: "8 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Producer"],
-    thumbnail: "/images/projects/midnight-transit/thumbnail.JPG",
-    description: "Moody neo-noir short about two strangers whose lives intersect during a late-night train ride.",
-    videoUrl: "https://www.youtube.com/embed/aqz-KE-bpKQ",
-    status: "Completed",
-    
-    synopsis: "When a runaway musician bumps into an undercover journalist on a desert-bound train, their secrets unravel during one surreal night.",
-    
-    crew: {
-      director: "Sumanta Mandar",
-      writer: "Sumanta Mandar",
-      editor: "Sumanta Mandar",
-      producer: "Independent Collective",
-      dop: "Maya Lopez"
-    },
-    
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
     gallery: [
-      "/images/projects/midnight-transit/still-1.JPG",
-      "/images/projects/midnight-transit/still-2.JPG"
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
     ]
   },
-  
+  // 7
   {
     id: 7,
-    title: "Chromatic Pulse",
-    year: 2021,
-    genre: "Animation",
-    duration: "2.5 min",
-    category: "music-video",
-    roles: ["Director", "Animator", "Colorist"],
-    thumbnail: "/images/projects/chromatic-pulse/thumbnail.JPG",
-    description: "Experimental animated visualizer syncing geometric forms with electronic beats.",
-    videoUrl: "https://www.youtube.com/embed/ysz5S6PUM-U",
-    status: "Completed",
-    
-    concept: "A synesthetic journey through color harmonies that respond to rhythm and melody in real-time.",
-    
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
     gallery: [
-      "/images/projects/chromatic-pulse/still-1.JPG",
-      "/images/projects/chromatic-pulse/still-2.JPG"
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
     ]
   },
-  
+  // 8
   {
     id: 8,
-    title: "Harvest of Light",
-    year: 2020,
-    genre: "Documentary",
-    duration: "20 min",
-    category: "documentary",
-    roles: ["Director", "Cinematographer", "Editor", "Colorist"],
-    thumbnail: "/images/projects/harvest-of-light/thumbnail.JPG",
-    description: "Documentary following migrant farm workers across California's Central Valley.",
-    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY",
-    status: "Completed",
-    
-    synopsis: "Profiles three families balancing tradition and modern challenges while sustaining the region's food supply.",
-    
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
     gallery: [
-      "/images/projects/harvest-of-light/still-1.JPG",
-      "/images/projects/harvest-of-light/still-2.JPG",
-      "/images/projects/harvest-of-light/still-3.JPG"
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 9
+  {
+    id: 9,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 10
+  {
+    id: 10,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 11
+  {
+    id: 11,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 12
+  {
+    id: 12,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 13
+  {
+    id: 13,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 14
+  {
+    id: 14,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 15
+  {
+    id: 15,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 16
+  {
+    id: 16,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 17
+  {
+    id: 17,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 18
+  {
+    id: 18,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 19
+  {
+    id: 19,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 20
+  {
+    id: 20,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 21
+  {
+    id: 21,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 22
+  {
+    id: 22,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 23
+  {
+    id: 23,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 24
+  {
+    id: 24,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 25
+  {
+    id: 25,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 26
+  {
+    id: 26,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 27
+  {
+    id: 27,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 28
+  {
+    id: 28,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 29
+  {
+    id: 29,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 30
+  {
+    id: 30,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 31
+  {
+    id: 31,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 32
+  {
+    id: 32,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 33
+  {
+    id: 33,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 34
+  {
+    id: 34,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 35
+  {
+    id: 35,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 36
+  {
+    id: 36,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 37
+  {
+    id: 37,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 38
+  {
+    id: 38,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 39
+  {
+    id: 39,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 40
+  {
+    id: 40,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 41
+  {
+    id: 41,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 42
+  {
+    id: 42,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 43
+  {
+    id: 43,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 44
+  {
+    id: 44,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 45
+  {
+    id: 45,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 46
+  {
+    id: 46,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 47
+  {
+    id: 47,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 48
+  {
+    id: 48,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 49
+  {
+    id: 49,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
+    ]
+  },
+  // 50
+  {
+    id: 50,
+    title: "The Reflection",
+    year: 2024,
+    genre: "Narrative Short",
+    duration: "8 min",
+    category: "short-film",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    status: "Post-Production",
+    gallery: [
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG",
+      "/images/projects/the-reflection/gallery1.JPG"
     ]
   }
 ];
