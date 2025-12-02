@@ -47,10 +47,16 @@ const statVariants = {
 
 const AboutSection = () => {
   const [sectionRef, isVisible] = useIntersectionObserver();
-  const [experienceCount, startExperience, , experienceStarted] = useCountUp(aboutData.stats[0].value, 2000);
-  const [projectsCount, startProjects, , projectsStarted] = useCountUp(aboutData.stats[1].value, 2500);
-  const [rolesCount, startRoles, , rolesStarted] = useCountUp(aboutData.stats[2].value, 2200);
-  const [countriesCount, startCountries, , countriesStarted] = useCountUp(aboutData.stats[3].value, 1800);
+  // Guard against missing stats entries
+  const statsSource = aboutData.stats || [];
+  const [experienceCount, startExperience, , experienceStarted] = useCountUp(
+    statsSource[0]?.value ?? 0,
+    2000
+  );
+  const [projectsCount, startProjects, , projectsStarted] = useCountUp(
+    statsSource[1]?.value ?? 0,
+    2500
+  );
 
   const startCounters = useCallback(() => {
     if (!experienceStarted) {
@@ -59,13 +65,7 @@ const AboutSection = () => {
     if (!projectsStarted) {
       setTimeout(() => startProjects(), 400);
     }
-    if (!rolesStarted) {
-      setTimeout(() => startRoles(), 600);
-    }
-    if (!countriesStarted) {
-      setTimeout(() => startCountries(), 800);
-    }
-  }, [startExperience, startProjects, startRoles, startCountries, experienceStarted, projectsStarted, rolesStarted, countriesStarted]);
+  }, [startExperience, startProjects, experienceStarted, projectsStarted]);
 
   useEffect(() => {
     if (isVisible) {
@@ -141,11 +141,17 @@ const AboutSection = () => {
   };
 
   const stats = [
-    { label: aboutData.stats[0].label, value: experienceCount, suffix: aboutData.stats[0].suffix },
-    { label: aboutData.stats[1].label, value: projectsCount, suffix: aboutData.stats[1].suffix },
-    { label: aboutData.stats[2].label, value: rolesCount, suffix: aboutData.stats[2].suffix },
-    { label: aboutData.stats[3].label, value: countriesCount, suffix: aboutData.stats[3].suffix }
-  ];
+    statsSource[0] && {
+      label: statsSource[0].label,
+      value: experienceCount,
+      suffix: statsSource[0].suffix
+    },
+    statsSource[1] && {
+      label: statsSource[1].label,
+      value: projectsCount,
+      suffix: statsSource[1].suffix
+    }
+  ].filter(Boolean);
 
   return (
     <motion.section 
