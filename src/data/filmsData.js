@@ -2,40 +2,39 @@
 export const filmsData = [
   {
     id: 1,
-    title: "The Reflection",
-    year: 2024,
+    title: "No Thank You",
+    year: 2021,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "4 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Editor", "Director of Photography", "Colorist"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    description: "A contemplative narrative exploring themes of identity and self-discovery through visual metaphor and intimate character study.",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Demo video
-    status: "Post-Production",
+    //description: "A contemplative narrative exploring themes of identity and self-discovery through visual metaphor and intimate character study.", 
+    videoUrl: "https://youtu.be/BXiKQK-A_vw?si=9xIuo6bNU1XVyjLY", // Demo video
+    //status: "Finished",
     
-    synopsis: "An introspective journey following a young artist who discovers hidden truths about themselves through an antique mirror. The film explores themes of identity, memory, and the courage to face one's authentic self.",
+    //synopsis: "An introspective journey following a young artist who discovers hidden truths about themselves through an antique mirror. The film explores themes of identity, memory, and the courage to face one's authentic self.",
     
     // cast: [
     //   { name: "Sarah Chen", role: "Maya" },
     //   { name: "David Rodriguez", role: "The Stranger" }
     // ],
     
-    crew: {
-      director: "Sumanta Mandar",
-      writer: "Sumanta Mandar", 
-      dop: "Sumanta Mandar",
-      editor: "Sumanta Mandar",
-      producer: "SDSU Film Program",
-      soundDesign: "Alex Thompson"
-    },
+    // crew: {
+    //   director: "Sumanta Mandar",
+    //   writer: "Sumanta Mandar", 
+    //   dop: "Sumanta Mandar",
+    //   editor: "Sumanta Mandar",
+    //   producer: "SDSU Film Program",
+    //   soundDesign: "Alex Thompson"
+    // },
     
-    festivals: [
-      { name: "San Diego Film Festival", status: "Submitted" },
-      { name: "Student Film Festival", status: "Official Selection" }
-    ],
+    // festivals: [
+    //   { name: "San Diego Film Festival", status: "Submitted" },
+    //   { name: "Student Film Festival", status: "Official Selection" }
+    // ],
     
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
