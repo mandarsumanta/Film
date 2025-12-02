@@ -82,7 +82,7 @@ const ShowreelSection = () => {
   const videoRef = useRef(null);
 
   // Static paths to downloadable assets in public/files
-const RESUME_URL = '/files/sumanta-mandar-resume.pdf';
+const RESUME_URL = '/files/sumanta-mandar-portfolio.pdf';
 
   // Showreel data
   const showreelData = {
