@@ -111,58 +111,55 @@ export const filmsData = [
   // 7
   {
     id: 7,
-    title: "The Reflection",
-    year: 2024,
-    genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    title: "Judaai",
+    year: 2022,
+    genre: "Commercial Short",
+    duration: "4 min",
+    category: ["commercial", "short-film"],
+    roles: ["Director of Photography", "Editor", "Colorist"],
+    thumbnail: "/images/projects/Judaai/J1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Judaai/J1.png",
+      "/images/projects/Judaai/J2.png",
+      "/images/projects/Judaai/J3.png"
     ]
   },
   // 8
   {
     id: 8,
-    title: "The Reflection",
-    year: 2024,
-    genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    title: "King",
+    year: 2022,
+    genre: "Commercial Short",
+    duration: "4 min",
+    category: ["commercial", "short-film"],
+    roles: ["Director of Photography", "Editor", "Colorist"],
+    thumbnail: "/images/projects/King/K1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/King/K1.png",
+      "/images/projects/King/K2.png",
+      "/images/projects/King/K3.png"
     ]
   },
   // 9
   {
     id: 9,
-    title: "The Reflection",
+    title: "Shaadi ka Pressure Cooker",
     year: 2024,
-    genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    genre: "Commercial Short",
+    duration: "3 min",
+    category: ["commercial", "short-film"],
+    roles: ["Director of Photography", "Editor", "Colorist"],
+    thumbnail: "/images/projects/Shaadi ka Pressure Cooker/S1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Shaadi ka Pressure Cooker/S1.png",
+      "/images/projects/Shaadi ka Pressure Cooker/S2.png",
+      "/images/projects/Shaadi ka Pressure Cooker/S3.png"
     ]
   },
   // 10
