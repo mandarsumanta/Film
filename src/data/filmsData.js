@@ -96,17 +96,16 @@ export const filmsData = [
     title: "Golden Temple",
     year: 2021,
     genre: "Documentary",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    duration: "10 min",
+    category: "documentary",
+    roles: ["Director of Photography", "Editor"],
+    thumbnail: "/images/projects/Golden Temple/G1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Golden Temple/G1.png",
+      "/images/projects/Golden Temple/G2.png",
+      "/images/projects/Golden Temple/G3.png"
     ]
   },
   // 7
