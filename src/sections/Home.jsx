@@ -243,10 +243,10 @@ const Home = () => {
         </div>
 
         {/* * {/* Services Section - Solid background, no video (WHAT I DO) */} */
-        <div id="services" className="relative bg-primary-bg" style={{ zIndex: 20 }}>
+        {/* <div id="services" className="relative bg-primary-bg" style={{ zIndex: 20 }}>
           <ServicesSection />
-        </div>
-         */}
+        </div> */}
+        
         {/* About Section - Solid background, no video */}
         <div id="about" className="relative bg-primary-bg" style={{ zIndex: 20 }}>
           <AboutSection />
