@@ -31,9 +31,9 @@ export const filmsData = [
     videoUrl: "https://youtu.be/KUxx5pipoUw",
     //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/F1.png",
-      "/images/projects/the-reflection/F2.png",
-      "/images/projects/the-reflection/F3.png"
+      "/images/projects/Five More Minutes/F1.png",
+      "/images/projects/Five More Minutes/F2.png",
+      "/images/projects/Five More Minutes/F3.png"
     ]
   },
   // 3
