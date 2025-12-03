@@ -10,7 +10,7 @@ export const filmsData = [
     category: "short-film",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Gaffer", "Colorist"],
     thumbnail: "/images/projects/Delirium/D1.png",
-    videoUrl: "",
+    videoUrl: "https://youtu.be/-AuKL5fnhEo",
     //status: "Post-Production",
     gallery: [
       "/images/projects/Delirium/D1.png",
@@ -22,13 +22,13 @@ export const filmsData = [
   {
     id: 2,
     title: "Five More Minutes",
-    year: 2024,
+    year: 2025,
     genre: "Narrative Short",
     duration: "6 min",
     category: "short-film",
     roles: ["Director", "Writer", "Colorist"],
     thumbnail: "/images/projects/Five More Minutes/F1.png",
-    videoUrl: "",
+    videoUrl: "https://youtu.be/KUxx5pipoUw",
     //status: "Post-Production",
     gallery: [
       "/images/projects/the-reflection/F1.png",
@@ -39,58 +39,55 @@ export const filmsData = [
   // 3
   {
     id: 3,
-    title: "The Reflection",
-    year: 2024,
+    title: "No Thank You",
+    year: 2021,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "4 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    roles: ["Director of Photography", "Editor", "Colorist"],
+    thumbnail: "/images/projects/No Thank You/N1.png",
+    videoUrl: "https://youtu.be/BXiKQK-A_vw?si=i8UPJTzvvay3eYbk",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/No Thank You/N1.png",
+      "/images/projects/No Thank You/N2.png",
+      "/images/projects/No Thank You/N3.png"
     ]
   },
   // 4
   {
     id: 4,
-    title: "The Reflection",
-    year: 2024,
+    title: "Stuck In Time",
+    year: 2023,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "2 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    roles: ["Director", "Writer", "Editor"],
+    thumbnail: "/images/projects/Stuck In Time/S1.png",
+    videoUrl: "https://youtu.be/yDO1MVCoX8c",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Stuck In Time/S1.png",
+      "/images/projects/Stuck In Time/S2.png",
+      "/images/projects/Stuck In Time/S3.png"
     ]
   },
   // 5
   {
     id: 5,
-    title: "The Reflection",
+    title: "Shadows & Spotlight",
     year: 2024,
     genre: "Narrative Short",
     duration: "8 min",
     category: "short-film",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    thumbnail: "/images/projects/Shadows & Spotlights/S2.png",
+    videoUrl: "https://youtu.be/f7IHnSQP3zg",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Shadows & Spotlights/S1.png",
+      "/images/projects/Shadows & Spotlights/S2.png",
+      "/images/projects/Shadows & Spotlights/S3.png"
     ]
   },
   // 6
