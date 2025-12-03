@@ -133,7 +133,7 @@ export const filmsData = [
     year: 2022,
     genre: "Commercial",
     duration: "4 min",
-    category: "commercial",,
+    category: "commercial",
     roles: ["Director of Photography", "Editor", "Colorist"],
     thumbnail: "/images/projects/King/K1.png",
     videoUrl: "",
