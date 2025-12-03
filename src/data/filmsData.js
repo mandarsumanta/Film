@@ -78,24 +78,24 @@ export const filmsData = [
     title: "Shadows & Spotlight",
     year: 2024,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "6 min",
     category: "short-film",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/Shadows & Spotlights/S2.png",
+    thumbnail: "/images/projects/Shadow & Spotlights/S2.png",
     videoUrl: "https://youtu.be/f7IHnSQP3zg",
     //status: "Post-Production",
     gallery: [
-      "/images/projects/Shadows & Spotlights/S1.png",
-      "/images/projects/Shadows & Spotlights/S2.png",
-      "/images/projects/Shadows & Spotlights/S3.png"
+      "/images/projects/Shadow & Spotlights/S1.png",
+      "/images/projects/Shadow & Spotlights/S2.png",
+      "/images/projects/Shadow & Spotlights/S3.png"
     ]
   },
   // 6
   {
     id: 6,
-    title: "The Reflection",
-    year: 2024,
-    genre: "Narrative Short",
+    title: "Golden Temple",
+    year: 2021,
+    genre: "Documentary",
     duration: "8 min",
     category: "short-film",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
