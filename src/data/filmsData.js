@@ -9,32 +9,31 @@ export const filmsData = [
     duration: "8 min",
     category: "short-film",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Gaffer", "Colorist"],
-    thumbnail: "/images/projects/Delirium/D1.JPG",
+    thumbnail: "/images/projects/Delirium/D1.png",
     videoUrl: "",
     //status: "Post-Production",
     gallery: [
       "/images/projects/Delirium/D1.png",
-      "/images/projects/Delirium/D21.png",
+      "/images/projects/Delirium/D2.png",
       "/images/projects/Delirium/D3.png"
     ]
   },
   // 2
   {
     id: 2,
-    title: "The Reflection",
+    title: "Five More Minutes",
     year: 2024,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "6 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    roles: ["Director", "Writer", "Colorist"],
+    thumbnail: "/images/projects/Five More Minutes/F1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/the-reflection/F1.png",
+      "/images/projects/the-reflection/F2.png",
+      "/images/projects/the-reflection/F3.png"
     ]
   },
   // 3
