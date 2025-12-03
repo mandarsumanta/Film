@@ -10,7 +10,7 @@ export const filmsData = [
     category: "short-film",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Gaffer", "Colorist"],
     thumbnail: "/images/projects/Delirium/D1.png",
-    videoUrl: "https://youtu.be/-AuKL5fnhEo",
+    videoUrl: "",
     //status: "Post-Production",
     gallery: [
       "/images/projects/Delirium/D1.png",
@@ -28,7 +28,7 @@ export const filmsData = [
     category: "short-film",
     roles: ["Director", "Writer", "Colorist"],
     thumbnail: "/images/projects/Five More Minutes/F1.png",
-    videoUrl: "https://youtu.be/KUxx5pipoUw",
+    videoUrl: "",
     //status: "Post-Production",
     gallery: [
       "/images/projects/Five More Minutes/F1.png",
@@ -46,7 +46,7 @@ export const filmsData = [
     category: "short-film",
     roles: ["Director of Photography", "Editor", "Colorist"],
     thumbnail: "/images/projects/No Thank You/N1.png",
-    videoUrl: "https://youtu.be/BXiKQK-A_vw?si=i8UPJTzvvay3eYbk",
+    videoUrl: "",
     //status: "Post-Production",
     gallery: [
       "/images/projects/No Thank You/N1.png",
@@ -64,7 +64,7 @@ export const filmsData = [
     category: "short-film",
     roles: ["Director", "Writer", "Editor"],
     thumbnail: "/images/projects/Stuck In Time/S1.png",
-    videoUrl: "https://youtu.be/yDO1MVCoX8c",
+    videoUrl: "",
     //status: "Post-Production",
     gallery: [
       "/images/projects/Stuck In Time/S1.png",
@@ -82,7 +82,7 @@ export const filmsData = [
     category: "short-film",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
     thumbnail: "/images/projects/Shadow & Spotlights/S2.png",
-    videoUrl: "https://youtu.be/f7IHnSQP3zg",
+    videoUrl: "",
     //status: "Post-Production",
     gallery: [
       "/images/projects/Shadow & Spotlights/S1.png",
