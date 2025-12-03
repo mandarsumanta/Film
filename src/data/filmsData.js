@@ -62,7 +62,7 @@ export const filmsData = [
     genre: "Narrative Short",
     duration: "2 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor"],
+    roles: ["Director", "Writer", "Producer", "Editor"],
     thumbnail: "/images/projects/Stuck In Time/S1.png",
     videoUrl: "",
     //status: "Post-Production",
