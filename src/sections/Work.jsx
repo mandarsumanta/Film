@@ -15,9 +15,9 @@ const Work = () => {
         <Hero />
         
         {/* Services Section */}
-        <div id="services">
+        {/* <div id="services">
           <ServicesSection />
-        </div>
+        </div> */}
         
         {/* Showreel Section */}
         <div id="showreel">
