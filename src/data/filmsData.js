@@ -3,20 +3,19 @@ export const filmsData = [
   // 1
   {
     id: 1,
-    title: "The Reflection",
+    title: "Delirium",
     year: 2024,
     genre: "Narrative Short",
     duration: "8 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    roles: ["Director", "Writer", "Editor", "Director of Photography", "Gaffer", "Colorist"],
+    thumbnail: "/images/projects/Delirium/D1.JPG",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Delirium/D1.png",
+      "/images/projects/Delirium/D21.png",
+      "/images/projects/Delirium/D3.png"
     ]
   },
   // 2
