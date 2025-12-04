@@ -8,7 +8,7 @@ export const aboutData = {
     main: "Filmmaker focused on story and visual craft. Currently pursuing MFA in Film & Television Production at San Diego State University. Available for narrative, documentary, and commercial work.",
     
     paragraphs: [
-      "Innovative filmmaker with experience across commercial, independent, and academic projects. Proficient in directing, cinematography, editing, and color grading with a focus on compelling storytelling and visual excellence."
+      "A filmmaker from Nepal bringing a global perspective to commercial, independent, and academic projects. Experienced in directing, cinematography, editing, and color grading, with a strong emphasis on rich storytelling and refined visuals."
     ]
   },
 
