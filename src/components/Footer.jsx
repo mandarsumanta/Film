@@ -76,7 +76,7 @@ const Footer = () => {
               Sumanta Mandar
             </Link>
             <p className="mt-4 text-text-secondary text-sm leading-relaxed">
-              Filmmaker crafting compelling visual narratives that resonate with audiences worldwide.
+              Filmmaker dedicated to creating visual stories that inspire and resonate globally.
             </p>
           </div>
 
