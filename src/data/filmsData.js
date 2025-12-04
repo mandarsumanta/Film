@@ -165,58 +165,55 @@ export const filmsData = [
   // 10
   {
     id: 10,
-    title: "The Reflection",
-    year: 2024,
+    title: "Watermelon Sugar",
+    year: 2021,
     genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    duration: "3 min",
+    category: "music-video",
+    roles: ["Director of Photography", "Editor", "Colorist"],
+    thumbnail: "/images/projects/Watermelon Sugar/W1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Watermelon Sugar/W1.png",
+      "/images/projects/Watermelon Sugar/W2.png",
+      "/images/projects/Watermelon Sugar/W3.png"
     ]
   },
   // 11
   {
     id: 11,
-    title: "The Reflection",
-    year: 2024,
-    genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    title: "Puppets",
+    year: 2018,
+    genre: "Animation",
+    duration: "5 min",
+    category: "music-video",
+    roles: ["Editor", "Animator"],
+    thumbnail: "/images/projects/Puppet/P1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Puppet/P1.png",
+      "/images/projects/Puppet/P2.png",
+      "/images/projects/Puppet/P3.png"
     ]
   },
   // 12
   {
     id: 12,
-    title: "The Reflection",
-    year: 2024,
-    genre: "Narrative Short",
+    title: "Wanderer",
+    year: 2025,
+    genre: "Animation",
     duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    category: "music-video",
+    roles: ["Animator"],
+    thumbnail: "/images/projects/Wanderer/W1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Wanderer/W1.png",
+      "/images/projects/Wanderer/W2.png",
+      "/images/projects/Wanderer/W3.png"
     ]
   },
   // 13
