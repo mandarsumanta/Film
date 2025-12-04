@@ -189,13 +189,13 @@ export const filmsData = [
     duration: "5 min",
     category: "music-video",
     roles: ["Editor", "Animator"],
-    thumbnail: "/images/projects/Puppet/P1.png",
+    thumbnail: "/images/projects/Puppets/P1.png",
     videoUrl: "",
     //status: "Post-Production",
     gallery: [
-      "/images/projects/Puppet/P1.png",
-      "/images/projects/Puppet/P2.png",
-      "/images/projects/Puppet/P3.png"
+      "/images/projects/Puppets/P1.png",
+      "/images/projects/Puppets/P2.png",
+      "/images/projects/Puppets/P3.png"
     ]
   },
   // 12
@@ -219,58 +219,55 @@ export const filmsData = [
   // 13
   {
     id: 13,
-    title: "The Reflection",
-    year: 2024,
-    genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    title: "Ambe Art",
+    year: 2022,
+    genre: "Commercial",
+    duration: "3 min",
+    category: "commercial",
+    roles: ["Director of Photography", "Editor", "Colorist"],
+    thumbnail: "/images/projects/Ambe Art/A1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Ambe Art/A1.png",
+      "/images/projects/Ambe Art/A2.png",
+      "/images/projects/Ambe Art/A3.png"
     ]
   },
   // 14
   {
     id: 14,
-    title: "The Reflection",
-    year: 2024,
-    genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    title: "Quieter Home Program",
+    year: 2025,
+    genre: "Commercial",
+    duration: "9 min",
+    category: "commercial",
+    roles: ["Editor", "Colorist"],
+    thumbnail: "/images/projects/Quieter Home Program/Q1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/Quieter Home Program/Q1.png",
+      "/images/projects/Quieter Home Program/Q2.png",
+      "/images/projects/Quieter Home Program/Q3.png"
     ]
   },
   // 15
   {
     id: 15,
-    title: "The Reflection",
-    year: 2024,
-    genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
-    thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    title: "CarPro",
+    year: 2021,
+    genre: "Commercial",
+    duration: "3 min",
+    category: "commercial",
+    roles: ["Director of Photography", "Editor", "Colorist"],
+    thumbnail: "/images/projects/CarPro/C1.png",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG",
-      "/images/projects/the-reflection/gallery1.JPG"
+      "/images/projects/CarPro/C1.png",
+      "/images/projects/CarPro/C2.png",
+      "/images/projects/CarPro/C3.png"
     ]
   },
   // 16
