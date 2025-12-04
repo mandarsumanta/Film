@@ -273,17 +273,16 @@ export const filmsData = [
   // 16
   {
     id: 16,
-    title: "The Reflection",
-    year: 2024,
+    title: "Letters to the Cloud",
+    year: 2025,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "10 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Editor"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -292,17 +291,16 @@ export const filmsData = [
   // 17
   {
     id: 17,
-    title: "The Reflection",
-    year: 2024,
+    title: "One Day in 365",
+    year: 2025,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "4 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Assistant Director", "Gaffer", "Editor", "Assistant Camera", "Colorist"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -311,17 +309,16 @@ export const filmsData = [
   // 18
   {
     id: 18,
-    title: "The Reflection",
-    year: 2024,
+    title: "Bloom",
+    year: 2025,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "3 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Editor", "Colorist"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -330,17 +327,16 @@ export const filmsData = [
   // 19
   {
     id: 19,
-    title: "The Reflection",
+    title: "Code Red",
     year: 2024,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "10 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Production Assistant"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -349,17 +345,16 @@ export const filmsData = [
   // 20
   {
     id: 20,
-    title: "The Reflection",
+    title: "Early Spring",
     year: 2024,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "3 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Director of Photography"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -368,17 +363,16 @@ export const filmsData = [
   // 21
   {
     id: 21,
-    title: "The Reflection",
+    title: "Early Summer",
     year: 2024,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "3 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Director of Photography"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -387,17 +381,16 @@ export const filmsData = [
   // 22
   {
     id: 22,
-    title: "The Reflection",
+    title: "Fleeting Memories",
     year: 2024,
     genre: "Narrative Short",
     duration: "8 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Director of Photography", "Editor", "Colorist"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -406,17 +399,16 @@ export const filmsData = [
   // 23
   {
     id: 23,
-    title: "The Reflection",
-    year: 2024,
+    title: "Imposter",
+    year: 2023,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "12 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Gaffer"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -425,17 +417,16 @@ export const filmsData = [
   // 24
   {
     id: 24,
-    title: "The Reflection",
-    year: 2024,
+    title: "Practically Perfect",
+    year: 2025,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "10 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Colorist"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -444,17 +435,16 @@ export const filmsData = [
   // 25
   {
     id: 25,
-    title: "The Reflection",
-    year: 2024,
-    genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    title: "Red is the New Green",
+    year: 2025,
+    genre: "Documentary",
+    duration: "10 min",
+    category: "documentary",
+    roles: ["Director of Photography"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -463,17 +453,16 @@ export const filmsData = [
   // 26
   {
     id: 26,
-    title: "The Reflection",
+    title: "Remembering",
     year: 2024,
-    genre: "Narrative Short",
-    duration: "8 min",
-    category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    genre: "Documentary",
+    duration: "12 min",
+    category: "documentary",
+    roles: ["Director of Photography"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -482,17 +471,16 @@ export const filmsData = [
   // 27
   {
     id: 27,
-    title: "The Reflection",
-    year: 2024,
+    title: "Starbound",
+    year: 2023,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "12 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Gaffer"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
