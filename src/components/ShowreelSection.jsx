@@ -89,7 +89,7 @@ const RESUME_URL = '/files/sumanta-mandar-portfolio.pdf';
     title: "DIRECTOR'S SHOWREEL",
     videoUrl: "https://www.youtube.com/embed/xF4n6yFOS5A?si=RdmkBtqle9CxI62k", // Demo showreel - replace with actual
     duration: "2:13",
-    description: "A collection of color grading work developed through my film graduate studies and professional collaborations, focused on precision, mood, and cinematic consistency.",
+    description: "Featuring a range of licensed log footage, this reel demonstrates my eye for color, mood, and visual coherence—focusing on how grading transforms raw images into polished cinematic frames.",
     year: "2024"
   };
 
