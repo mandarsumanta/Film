@@ -215,7 +215,7 @@ const Home = () => {
                   zIndex: 0
                 }}
               >
-                <source src="/videos/hero-background.mp4" type="video/mp4" />
+                <source src="/videos/hero-background.mov" type="video/mov" />
                 <source src="/videos/hero-background.webm" type="video/webm" />
                 Your browser does not support the video tag.
               </video>
