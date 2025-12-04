@@ -167,9 +167,9 @@ export const filmsData = [
     id: 10,
     title: "Watermelon Sugar",
     year: 2021,
-    genre: "Narrative Short",
+    genre: "Commercial",
     duration: "3 min",
-    category: "music-video",
+    category: "commercial",
     roles: ["Director of Photography", "Editor", "Colorist"],
     thumbnail: "/images/projects/Watermelon Sugar/W1.png",
     videoUrl: "",
@@ -759,17 +759,16 @@ export const filmsData = [
   // 43
   {
     id: 43,
-    title: "The Reflection",
-    year: 2024,
+    title: "Nine Lives",
+    year: 2025,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "12 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Assistant Camera", "Editor", "Colorist"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -778,17 +777,16 @@ export const filmsData = [
   // 44
   {
     id: 44,
-    title: "The Reflection",
-    year: 2024,
+    title: "Life as a Fish",
+    year: 2025,
     genre: "Narrative Short",
     duration: "8 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Gaffer", "Colorist"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -797,17 +795,16 @@ export const filmsData = [
   // 45
   {
     id: 45,
-    title: "The Reflection",
-    year: 2024,
+    title: "Whats Up Guys",
+    year: 2025,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "10 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Gaffer", "Key Grip"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -816,17 +813,16 @@ export const filmsData = [
   // 46
   {
     id: 46,
-    title: "The Reflection",
-    year: 2024,
+    title: "Before He Forgets",
+    year: 2025,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "10 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Assistant Camera"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -835,17 +831,16 @@ export const filmsData = [
   // 47
   {
     id: 47,
-    title: "The Reflection",
-    year: 2024,
+    title: "Again Once More",
+    year: 2025,
     genre: "Narrative Short",
     duration: "8 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Gaffer"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -854,17 +849,16 @@ export const filmsData = [
   // 48
   {
     id: 48,
-    title: "The Reflection",
-    year: 2024,
+    title: "Faith Club",
+    year: 2025,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "6 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Gaffer"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -873,17 +867,16 @@ export const filmsData = [
   // 49
   {
     id: 49,
-    title: "The Reflection",
-    year: 2024,
+    title: "Tenderness of your Shadow",
+    year: 2025,
     genre: "Narrative Short",
-    duration: "8 min",
+    duration: "13 min",
     category: "short-film",
-    roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
+    roles: ["Gaffer", "Colorist"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    videoUrl: "",
+    //status: "Post-Production",
     gallery: [
-      "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG"
@@ -892,8 +885,8 @@ export const filmsData = [
   // 50
   {
     id: 50,
-    title: "The Reflection",
-    year: 2024,
+    title: "TBD",
+    year: 2025,
     genre: "Narrative Short",
     duration: "8 min",
     category: "short-film",
