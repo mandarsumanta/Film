@@ -11,7 +11,7 @@ export const filmsData = [
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Gaffer", "Colorist"],
     thumbnail: "/images/projects/Delirium/D1.png",
     videoUrl: "",
-    status: "Post-Productionhgchcytcycycycycycd5r6cx6fcybvytcv",
+    //status: "Post-Production",
     gallery: [
       "/images/projects/Delirium/D1.png",
       "/images/projects/Delirium/D2.png",
@@ -893,7 +893,7 @@ export const filmsData = [
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Key Grip"],
     thumbnail: "/images/projects/the-reflection/thumbnail1.JPG",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    status: "Post-Production",
+    //status: "Post-Production",
     gallery: [
       "/images/projects/the-reflection/gallery1.JPG",
       "/images/projects/the-reflection/gallery1.JPG",
