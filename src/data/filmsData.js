@@ -11,7 +11,7 @@ export const filmsData = [
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Gaffer", "Colorist"],
     thumbnail: "/images/projects/Delirium/D1.png",
     videoUrl: "",
-    //status: "Post-Production",
+    status: "Post-Productionhgchcytcycycycycycd5r6cx6fcybvytcv",
     gallery: [
       "/images/projects/Delirium/D1.png",
       "/images/projects/Delirium/D2.png",
