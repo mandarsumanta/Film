@@ -8,6 +8,7 @@ export const filmsData = [
     genre: "Narrative Short",
     duration: "8 min",
     category: "short-film",
+    description: "Add film description here",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Gaffer", "Colorist"],
     thumbnail: "/images/projects/Delirium/D1.png",
     videoUrl: "",
