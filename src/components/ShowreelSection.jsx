@@ -216,8 +216,7 @@ const RESUME_URL = '/files/sumanta-mandar-portfolio.pdf';
             className="text-base md:text-lg text-text-secondary max-w-4xl mx-auto leading-relaxed"
             variants={itemVariants}
           >
-            A showcase of my color grading work across narrative films, documentaries, commercials, and digital content-crafted to elevate emotion, create visual consistency, and bring every story to life.
-ssional projects.
+            A showcase of my color grading work using professionally captured stock footage. Each sequence demonstrates my approach to shaping mood, enhancing visual tone, and creating cinematic looks through color.
           </motion.p>
         </motion.div>
 
