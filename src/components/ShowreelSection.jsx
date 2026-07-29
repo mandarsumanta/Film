@@ -86,7 +86,7 @@ const RESUME_URL = '/files/sumanta-mandar-portfolio.pdf';
 
   // Showreel data
   const showreelData = {
-    title: "DIRECTOR'S SHOWREEL",
+    title: "COLOR SHOWREEL",
     videoUrl: "https://www.youtube.com/embed/xF4n6yFOS5A?si=RdmkBtqle9CxI62k", // Demo showreel - replace with actual
     duration: "2:13",
     description: "Featuring a range of licensed log footage, this reel demonstrates my eye for color, mood, and visual coherence—focusing on how grading transforms raw images into polished cinematic frames.",
@@ -216,8 +216,8 @@ const RESUME_URL = '/files/sumanta-mandar-portfolio.pdf';
             className="text-base md:text-lg text-text-secondary max-w-4xl mx-auto leading-relaxed"
             variants={itemVariants}
           >
-            Experience my cinematic vision through this carefully curated showcase of narrative, 
-            documentary, and commercial work developed during my MFA studies and professional projects.
+            A showcase of my color grading work across narrative films, documentaries, commercials, and digital content-crafted to elevate emotion, create visual consistency, and bring every story to life.
+ssional projects.
           </motion.p>
         </motion.div>
 
