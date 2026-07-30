@@ -8,7 +8,7 @@ export const filmsData = [
     genre: "Narrative Short",
     duration: "8 min",
     category: "short-film",
-    description: "Add film description here",
+    description: "A narrative short exploring memory, connection, and the fragile line between joy and delirium, captured on the coast at dusk.",
     roles: ["Director", "Writer", "Editor", "Director of Photography", "Gaffer", "Colorist"],
     thumbnail: "/images/projects/Delirium/D1.png",
     videoUrl: "",
@@ -924,6 +924,19 @@ export const getRecentProjects = (count = 6) => {
   return filmsData
     .sort((a, b) => b.year - a.year)
     .slice(0, count);
+};
+
+export const getProjectById = (projectId) => {
+  return filmsData.find(project => String(project.id) === String(projectId)) || null;
+};
+
+export const getProjectDescription = (project) => {
+  if (project.description) {
+    return project.description;
+  }
+
+  const roles = project.roles?.length ? project.roles.join(', ') : 'crew';
+  return `${project.title} (${project.year}) is a ${project.genre.toLowerCase()} running ${project.duration}. Sumanta contributed as ${roles}.`;
 };
 
 // Category display name mapping

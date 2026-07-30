@@ -14,6 +14,7 @@ const Home = lazy(() => import('./sections/Home'));
 const About = lazy(() => import('./sections/About'));
 const Work = lazy(() => import('./sections/Work'));
 const Contact = lazy(() => import('./sections/Contact'));
+const ProjectDetails = lazy(() => import('./sections/ProjectDetails'));
 const NotFound = lazy(() => import('./sections/NotFound'));
 
 // Animated route wrapper - ensures complete component isolation
@@ -56,11 +57,22 @@ const AppContent = () => {
   const location = useLocation();
   // Strict check: only index page (exactly '/' or empty string)
   const isHomePage = location.pathname === '/' || location.pathname === '';
+  const isProjectPage = location.pathname.startsWith('/projects/');
   const [isLoading, setIsLoading] = useState(true);
+  const [isImageViewMode, setIsImageViewMode] = useState(false);
 
   useEffect(() => {
     // Initialize performance optimizations
     initPerformanceOptimizations();
+  }, []);
+
+  useEffect(() => {
+    const handler = (e) => {
+      setIsImageViewMode(Boolean(e?.detail?.open));
+    };
+
+    window.addEventListener('image-view-mode', handler);
+    return () => window.removeEventListener('image-view-mode', handler);
   }, []);
 
   // Effect to add body class for CSS targeting (simplified - components handle their own cleanup)
@@ -123,7 +135,7 @@ const AppContent = () => {
         transition={{ duration: 0.5 }}
       >
         <SkipLink />
-        <Navigation />
+        {!isImageViewMode && <Navigation />}
           
           <main id="main-content" tabIndex="-1" className="relative" style={{ zIndex: 10 }}>
             <AnimatePresence mode="wait">
@@ -156,6 +168,11 @@ const AppContent = () => {
                       <Contact key="contact-page-unique" />
                     </AnimatedRoute>
                   } />
+                  <Route path="/projects/:projectId" element={
+                    <AnimatedRoute routeKey="project-details-route">
+                      <ProjectDetails key="project-details-page-unique" />
+                    </AnimatedRoute>
+                  } />
                   <Route path="*" element={
                     <AnimatedRoute routeKey="notfound-route">
                       <NotFound key="notfound-page-unique" />
@@ -166,7 +183,7 @@ const AppContent = () => {
             </AnimatePresence>
           </main>
           
-        <Footer />
+        {!isProjectPage && <Footer />}
       </motion.div>
     </>
   );
