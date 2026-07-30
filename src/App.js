@@ -13,6 +13,7 @@ import { initPerformanceOptimizations } from './utils/performance';
 const Home = lazy(() => import('./sections/Home'));
 const About = lazy(() => import('./sections/About'));
 const Work = lazy(() => import('./sections/Work'));
+const ProjectDetails = lazy(() => import('./sections/ProjectDetails'));
 const Contact = lazy(() => import('./sections/Contact'));
 const NotFound = lazy(() => import('./sections/NotFound'));
 
@@ -56,6 +57,7 @@ const AppContent = () => {
   const location = useLocation();
   // Strict check: only index page (exactly '/' or empty string)
   const isHomePage = location.pathname === '/' || location.pathname === '';
+  const isProjectDetailsPage = /^\/work\/[^/]+$/.test(location.pathname);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -123,7 +125,7 @@ const AppContent = () => {
         transition={{ duration: 0.5 }}
       >
         <SkipLink />
-        <Navigation />
+        {!isProjectDetailsPage && <Navigation />}
           
           <main id="main-content" tabIndex="-1" className="relative" style={{ zIndex: 10 }}>
             <AnimatePresence mode="wait">
@@ -151,6 +153,11 @@ const AppContent = () => {
                       <Work key="work-page-unique" />
                     </AnimatedRoute>
                   } />
+                  <Route path="/work/:id" element={
+                    <AnimatedRoute routeKey="project-details-route">
+                      <ProjectDetails key="project-details-page-unique" />
+                    </AnimatedRoute>
+                  } />
                   <Route path="/contact" element={
                     <AnimatedRoute routeKey="contact-route">
                       <Contact key="contact-page-unique" />
@@ -166,7 +173,7 @@ const AppContent = () => {
             </AnimatePresence>
           </main>
           
-        <Footer />
+        {!isProjectDetailsPage && <Footer />}
       </motion.div>
     </>
   );

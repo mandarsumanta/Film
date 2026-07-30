@@ -36,7 +36,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
 
   return (
     <div 
-      className="fixed inset-0 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+      className="fixed inset-0 flex items-center justify-center bg-black backdrop-blur-sm p-4"
       style={{ zIndex: 9999 }}
     >
       <div 

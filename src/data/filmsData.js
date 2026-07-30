@@ -916,6 +916,11 @@ export const getProjectsByRole = (role) => {
   );
 };
 
+export const getProjectById = (projectId) => {
+  const id = Number(projectId);
+  return filmsData.find((project) => project.id === id);
+};
+
 export const getFeaturedProjects = () => {
   return filmsData.filter(project => project.featured).slice(0, 3);
 };

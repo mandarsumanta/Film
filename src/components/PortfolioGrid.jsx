@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { filmsData, categories, roles, getProjectsByCategory, roleSynonyms, getCategoryDisplayName } from '../data/filmsData';
-import ProjectModal from './ProjectModal';
 import ProjectPlaceholder from './ProjectPlaceholder';
 import { useIntersectionObserver } from '../utils/useScrollAnimation';
 
@@ -47,13 +47,12 @@ const filterVariants = {
 };
 
 const PortfolioGrid = () => {
+  const navigate = useNavigate();
   const [activeFilter, setActiveFilter] = useState('all');
   const [activeRole, setActiveRole] = useState('all');
   const [filteredProjects, setFilteredProjects] = useState(filmsData);
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 6;
-  const [selectedProject, setSelectedProject] = useState(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const [sectionRef, isVisible] = useIntersectionObserver();
 
   useEffect(() => {
@@ -95,13 +94,7 @@ const PortfolioGrid = () => {
   const canGoNext = currentPage < totalPages - 1;
 
   const handleProjectClick = (project) => {
-    setSelectedProject(project);
-    setIsModalOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-    setSelectedProject(null);
+    navigate(`/work/${project.id}`);
   };
 
   return (
@@ -374,12 +367,6 @@ const PortfolioGrid = () => {
         )}
       </div>
 
-      {/* Project Modal */}
-      <ProjectModal
-        project={selectedProject}
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
-      />
     </motion.section>
   );
 };
